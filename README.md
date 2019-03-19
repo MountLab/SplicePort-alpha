@@ -9,7 +9,7 @@ This is an alpha version of the software.
 - Download SpliceScorer.jar, donorFeatures.txt, acceptorFeatures.txt and dummy_seq_file.fasta to folder created in the previous step.
 - You can test the jar file by running the command described in the following Execution Command section.
 - Successful completion of the execution command confirmed that the jar file is ready to be run on any input sequence file.
-- Based on your requirement, you may create new .fasta file and provide it to the jar file using the '-i' option.
+- Based on your requirement, you may create new .fasta file and provide it to the jar file using the '-f' option.
 
 #### Source code compilation [OPTIONAL]
 The source code is distributed in the "src" folder.
