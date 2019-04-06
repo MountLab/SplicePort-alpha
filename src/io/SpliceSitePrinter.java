@@ -50,7 +50,9 @@ public class SpliceSitePrinter implements Runnable{
 				if(site.getType() == 'A'){
 					type = "Acceptor";
 				}
-				printer.println(type+"\t"+site.getLocation()+"\t"+site.getSequence()+"\t"+site.getScore());
+				String spscore = String.format("%.3f", site.getScore());
+				//printer.println(type+"\t"+site.getLocation()+"\t"+site.getSequence()+"\t"+site.getScore());
+				printer.println(type+"\t"+site.getLocation()+"\t"+site.getSequence()+"\t"+spscore);
 			}
 	}
 	
