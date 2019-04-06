@@ -1,13 +1,12 @@
-# SplicePort-alpha
-SplicePort is a splice-site analysis tool that makes splice-site predictions for a given sequence. 
-This is an alpha version of the software.
+# SplicePort-dev
+SplicePort is a splice-site analysis tool that makes splice-site predictions for a given sequence.
 
 ## Installation
 
 #### Setting up the jar file 
-- Make a folder called SplicePort_XXXXXXXX (replace X with YYYYMMDD)
-- Download SpliceScorer.jar, donorFeatures.txt, acceptorFeatures.txt and dummy_seq_file.fasta to folder created in the previous step.
-- You can test the jar file by running the command described in the following Execution Command section.
+- Download the SplicePort package from the repository. (Click on the 'Clone or download' button on the upper right -> "Download ZIP")
+- Extract the downloaded zip file (SplicePort-alpha-master.zip).
+- You can test the jar file inside the extracted folder by running the command described in the following Execution Command section.
 - Successful completion of the execution command confirmed that the jar file is ready to be run on any input sequence file.
 - Based on your requirement, you may create new .fasta file and provide it to the jar file using the '-f' option.
 
@@ -21,7 +20,7 @@ Dependency jar files -
 ## Execution Command
 SpliceScorer: Scores possible donor and acceptor sites in a provided fasta file based on how likely they are to be true splicing donor or acceptor sites.
 ```sh
-$ java -jar SpliceportScorer.jar -t 2 -f dummy_seq_file.fasta -d donorFeatures.txt -a acceptorFeatures.txt -w 162 -o testout.txt
+$ java -jar SpliceportScorer.jar -t 2 -f dummy_seq_file.fasta -d donor_feature_file.txt -a acceptor_feature_file.txt -w 162 -o testout.txt
 
 Options:
 -w: Window Size (value should be 162)
@@ -34,3 +33,7 @@ Options:
 -o: Output file
 *Optional Argument
 ```
+
+## FAQ
+### Question: What can be done to speed up the computation?
+Answer: Try to increase the number of threads while executing the command. This can be done by increasing the number next to '-t' option. 
