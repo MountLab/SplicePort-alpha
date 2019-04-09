@@ -35,8 +35,8 @@ Options:
 ```
 
 ##References
-[1] Rezarta Islamaj Dogan, Lise Getoor, W. John Wilbur, Stephen M. Mount, SplicePort—An interactive splice-site analysis tool, Nucleic Acids Research, Volume 35, Issue suppl_2, July 2007, Pages W285–W291, https://doi.org/10.1093/nar/gkm407
-[2] Lipika R Pal, Chen-Hsin Yu, Stephen M Mount, John Moult, Insights from GWAS: emerging landscape of mechanisms underlying complex trait disease, BMC Genomics, 16 (Suppl 8), June 2015, https://doi.org/10.1186/1471-2164-16-S8-S4
+- Rezarta Islamaj Dogan, Lise Getoor, W. John Wilbur, Stephen M. Mount, SplicePort—An interactive splice-site analysis tool, Nucleic Acids Research, Volume 35, Issue suppl_2, July 2007, Pages W285–W291, https://doi.org/10.1093/nar/gkm407
+- Lipika R Pal, Chen-Hsin Yu, Stephen M Mount, John Moult, Insights from GWAS: emerging landscape of mechanisms underlying complex trait disease, BMC Genomics, 16 (Suppl 8), June 2015, https://doi.org/10.1186/1471-2164-16-S8-S4
 
 
 ## FAQ
