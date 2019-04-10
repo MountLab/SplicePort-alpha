@@ -41,4 +41,6 @@ Options:
 
 ## FAQ
 ### Question: What can be done to speed up the computation?
-Answer: Try to increase the number of threads while executing the command. This can be done by increasing the number next to '-t' option. 
+Answers: 
+1) Try to increase the number of threads while executing the command. This can be done by increasing the number next to '-t' option. 
+2) Partition a longer sequence into 600 bp pieces at 500 bp intervals (1-600, 501-1100, 1001-1600, etc.).  We recognize that this could be handled in the code itself, but have not yet implemented that. 
