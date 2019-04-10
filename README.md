@@ -1,4 +1,4 @@
-# SplicePort-dev
+# SplicePort-alpha
 SplicePort is a splice-site analysis tool that makes splice-site predictions for a given sequence.
 
 ## Installation
